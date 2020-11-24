@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>VueJs Component</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+<div id="vue-one">
+    <h1>Vue Component</h1>
+<!--    <greetings/>-->
+    <h1>Vue refs</h1>
+    <input type="text" ref="name">
+    <button v-on:click="getName">Submit</button>
+    <p>Name: {{output}}</p>
+
+</div>
+<div id="vue-two">
+<!--    <greetings/>-->
+</div>
+<script src="app.js"></script>
+</body>
+</html>
